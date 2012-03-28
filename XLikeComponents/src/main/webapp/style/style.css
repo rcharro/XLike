@@ -1,0 +1,601 @@
+/*
+Copyright (c) 2007, Yahoo! Inc. All rights reserved.
+Code licensed under the BSD License:
+http://developer.yahoo.net/yui/license.txt
+version: 2.4.1
+*/
+html {
+	color: #000;
+	background: #FFFFFF;
+}
+
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+fieldset,img {
+	border: 0;
+}
+
+address,caption,cite,code,dfn,em,strong,th,var {
+	font-style: normal;
+	font-weight: normal;
+}
+
+li {
+	list-style: none;
+}
+
+caption,th {
+	text-align: left;
+}
+
+q:before,q:after {
+	content: '';
+}
+
+abbr,acronym {
+	border: 0;
+	font-variant: normal;
+}
+
+sup {
+	vertical-align: text-top;
+}
+
+sub {
+	vertical-align: text-bottom;
+}
+
+input,textarea,select {
+	font-family: inherit;
+	font-size: inherit;
+	font-weight: inherit;
+}
+
+legend {
+	color: #000;
+}
+
+body {
+	font: 13px/1.231 arial, helvetica, clean, sans-serif;
+	*font-size: small;
+	*font: x-small;
+}
+
+table {
+	font-size: inherit;
+	font: 100%;
+}
+
+pre,code,kbd,samp,tt {
+	font-family: monospace;
+	*font-size: 108%;
+	line-height: 100%;
+}
+
+body {
+	text-align: center;
+}
+
+#ft {
+	clear: both;
+}
+
+#doc,#doc2,#doc3,#doc4,.yui-t1,.yui-t2,.yui-t3,.yui-t4,.yui-t5,.yui-t6,.yui-t7
+	{
+	margin: auto;
+	text-align: left;
+	width: 57.69em;
+	*width: 56.301em;
+	min-width: 750px;
+}
+
+#doc2 {
+	width: 73.074em;
+	*width: 71.313em;
+}
+
+#doc3 {
+	margin: auto 10px;
+	width: auto;
+}
+
+#doc4 {
+	width: 74.923em;
+	*width: 73.117em;
+}
+
+.yui-b {
+	position: relative;
+}
+
+.yui-b {
+	_position: static;
+}
+
+#yui-main .yui-b {
+	position: static;
+}
+
+#yui-main {
+	width: 100%;
+}
+
+.yui-t1 #yui-main,.yui-t2 #yui-main,.yui-t3 #yui-main {
+	float: right;
+	margin-left: -25em;
+}
+
+.yui-t4 #yui-main,.yui-t5 #yui-main,.yui-t6 #yui-main {
+	float: left;
+	margin-right: -25em;
+}
+
+.yui-t1 .yui-b {
+	float: left;
+	width: 12.3207em;
+	*width: 12.0106em;
+}
+
+.yui-t1 #yui-main .yui-b {
+	margin-left: 13.3207em;
+	*margin-left: 13.0106em;
+}
+
+.yui-t2 .yui-b {
+	float: left;
+	width: 13.8456em;
+	*width: 13.512em;
+}
+
+.yui-t2 #yui-main .yui-b {
+	margin-left: 14.8456em;
+	*margin-left: 14.512em;
+}
+
+.yui-t3 .yui-b {
+	float: left;
+	width: 23.0759em;
+	*width: 22.52em;
+}
+
+.yui-t3 #yui-main .yui-b {
+	margin-left: 24.0759em;
+	*margin-left: 23.52em;
+}
+
+.yui-t4 .yui-b {
+	float: right;
+	width: 13.8456em;
+	*width: 13.512em;
+}
+
+.yui-t4 #yui-main .yui-b {
+	margin-right: 14.8456em;
+	*margin-right: 14.512em;
+}
+
+.yui-t5 .yui-b {
+	float: right;
+	width: 18.4608em;
+	*width: 18.016em;
+}
+
+.yui-t5 #yui-main .yui-b {
+	margin-right: 19.4608em;
+	*margin-right: 19.016em;
+}
+
+.yui-t6 .yui-b {
+	float: right;
+	width: 23.0759em;
+	*width: 22.52em;
+}
+
+.yui-t6 #yui-main .yui-b {
+	margin-right: 24.0759em;
+	*margin-right: 23.52em;
+}
+
+.yui-t7 #yui-main .yui-b {
+	display: block;
+	margin: 0 0 1em 0;
+}
+
+#yui-main .yui-b {
+	float: none;
+	width: auto;
+}
+
+.yui-g .yui-gb .yui-u,.yui-gb .yui-g,.yui-gb .yui-gb,.yui-gb .yui-gc,.yui-gb .yui-gd,.yui-gb .yui-ge,.yui-gb .yui-gf,.yui-gb .yui-u,.yui-gc .yui-u,.yui-gc .yui-g,.yui-gd .yui-u
+	{
+	float: left;
+	margin-left: 2%;
+	width: 32%;
+}
+
+.yui-gb .yui-gb .yui-u,.yui-gb .yui-gc .yui-u {
+	*margin-left: 1.8%;
+	_margin-left: 4%;
+}
+
+.yui-g .yui-gb .yui-u {
+	_margin-left: .8%;
+}
+
+.yui-gb .yui-u {
+	float: right;
+}
+
+.yui-gb div.first {
+	margin-left: 0;
+	float: left;
+}
+
+.yui-g .yui-gb div.first,.yui-gb .yui-gb div.first {
+	*margin-right: 0;
+	*width: 32%;
+	_width: 31.7%;
+}
+
+.yui-gb .yui-gc div.first,.yui-gb .yui-gd div.first {
+	*margin-right: 0;
+}
+
+.yui-gb .yui-gd .yui-u {
+	*width: 66%;
+	_width: 61.2%;
+}
+
+.yui-gb .yui-gd div.first {
+	*width: 31%;
+	_width: 29.5%;
+}
+
+.yui-g .yui-gc .yui-u,.yui-gb .yui-gc .yui-u {
+	width: 32%;
+	_float: right;
+	margin-right: 0;
+	_margin-left: 0;
+}
+
+.yui-gb .yui-gc div.first {
+	width: 66%;
+	*float: left;
+	*margin-left: 0;
+}
+
+.yui-gb .yui-ge .yui-u,.yui-gb .yui-gf .yui-u {
+	margin: 0;
+}
+
+.yui-g .yui-u,.yui-g .yui-g,.yui-g .yui-gb,.yui-g .yui-gc,.yui-g .yui-gd,.yui-g .yui-ge,.yui-g .yui-gf,.yui-gc .yui-u,.yui-gd .yui-g,.yui-g .yui-gc .yui-u,.yui-ge .yui-u,.yui-ge .yui-g,.yui-gf .yui-g,.yui-gf .yui-u
+	{
+	float: right;
+}
+
+.yui-g .yui-gc div.first,.yui-g .yui-ge div.first,.yui-g div.first,.yui-gc div.first,.yui-gc div.first div.first,.yui-gd div.first,.yui-ge div.first,.yui-gf div.first
+	{
+	float: left;
+}
+
+.yui-g .yui-g .yui-u,.yui-gb .yui-g .yui-u,.yui-gc .yui-g .yui-u,.yui-gd .yui-g .yui-u,.yui-ge .yui-g .yui-u,.yui-gf .yui-g .yui-u
+	{
+	width: 49%;
+	*width: 48.1%;
+	*margin-left: 0;
+}
+
+.yui-g .yui-g div.first {
+	*margin: 0;
+}
+
+.yui-gb .yui-g div.first {
+	*margin-right: 4%;
+	_margin-right: 1.3%;
+}
+
+.yui-gb .yui-gb .yui-u {
+	_margin-left: .7%;
+}
+
+.yui-gb .yui-g div.first,.yui-gb .yui-gb div.first {
+	*margin-left: 0;
+}
+
+.yui-gc .yui-g .yui-u,.yui-gd .yui-g .yui-u {
+	*width: 48.1%;
+	*margin-left: 0;
+}
+
+.yui-g .yui-u,.yui-g .yui-g,.yui-g .yui-gb,.yui-g .yui-gc,.yui-g .yui-gd,.yui-g .yui-ge,.yui-g .yui-gf
+	{
+	width: 49.1%;
+}
+
+.yui-g .yui-gb div.first,.yui-gb div.first,.yui-gc div.first,.yui-gd div.first
+	{
+	margin-left: 0;
+}
+
+.yui-g .yui-gc div.first,.yui-gc div.first,.yui-gd .yui-g,.yui-gd .yui-u
+	{
+	width: 66%;
+}
+
+.yui-gd div.first,.yui-gb .yui-gd div.first {
+	width: 32%;
+}
+
+.yui-g .yui-gd div.first {
+	_width: 29.9%;
+}
+
+.yui-ge .yui-u,.yui-ge .yui-g,.yui-gf div.first {
+	width: 24%;
+}
+
+.yui-gb .yui-ge div.yui-u,.yui-gb .yui-gf div.yui-u {
+	float: right;
+}
+
+.yui-gb .yui-ge div.first,.yui-gb .yui-gf div.first {
+	float: left;
+}
+
+.yui-ge div.first,.yui-gf .yui-g,.yui-gf .yui-u {
+	width: 74.2%;
+}
+
+.yui-gb .yui-ge .yui-u,.yui-gb .yui-gf div.first {
+	*width: 24%;
+	_width: 20%;
+}
+
+.yui-gb .yui-ge div.first,.yui-gb .yui-gf .yui-u {
+	*width: 73.5%;
+	_width: 65.5%;
+}
+
+#bd:after,.yui-g:after,.yui-gb:after,.yui-gc:after,.yui-gd:after,.yui-ge:after,.yui-gf:after
+	{
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+
+#bd,.yui-g,.yui-gb,.yui-gc,.yui-gd,.yui-ge,.yui-gf {
+	zoom: 1;
+}
+
+.yui-gb .yui-u {
+	float: left;
+}
+
+html {
+	min-height: 100%;
+	background-color: #0047AB;
+}
+
+body {
+	min-height: 100%;
+	background-color: #81BEF7;
+	font: 12px "Lucida Grande", "Arial", "Helvetica", "Verdana",
+		"sans-serif";
+	line-height: 1.5em;
+	color: #192745;
+}
+
+#doc {
+	min-height: 100%;
+	background: white url(background.png) repeat-y top left;
+	padding-bottom: 25px;
+}
+
+* html #doc {
+	width: 750px;
+}
+
+#hd {
+	display: none;
+}
+
+#bd {
+	background: transparent;
+	min-height: 666px
+}
+
+* html .front #bd {
+	background: transparent;
+	height: 800px
+}
+
+/* Custom yui-t2 definition for the menu, which should be 200px width, it is a pain to make this flexible */
+.yui-t2 .yui-b {
+	float: left;
+	width: 200px;
+	*width: 200px;
+}
+
+.yui-t2 #yui-main .yui-b {
+	margin-left: 220px;
+	*margin-left: 220px;
+}
+
+#yui-main .yui-b {
+	padding-top: 20px;
+	padding-right: 20px;
+}
+
+div.menu {
+	padding-top: 20px;
+}
+
+#yui-main ol,#yui-main ul,#yui-main dl {
+	margin-left: 2em;
+}
+
+#yui-main ol li {
+	list-style: decimal outside;
+}
+
+#yui-main ul li {
+	list-style: disc outside;
+}
+
+h2 {
+	font-size: 18px;
+	padding-top: 0.5em;
+	padding-bottom: 1em;
+}
+
+h3 {
+	font-size: 18px;
+	padding-top: 0.5em;
+	padding-bottom: 1em;
+}
+
+h4 {
+	font-size: 15px;
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+}
+
+p {
+	padding-bottom: 1em;
+}
+
+a,a:visited,a:hover,a:active {
+	color: #7c252e;
+	font-weight: bold;
+	text-decoration: none;
+	border-bottom: 1px dashed;
+}
+/*giving UL's LIs generated disc markers*/
+div.menu {
+	height: 100%;
+	background-color: #7c252e;
+	width: 200px;
+}
+
+div.menu dl {
+	width: 185px;
+	padding-right: 15px;
+}
+
+.menu,.menu dt {
+	color: #fff;
+	border: none;
+	text-align: right;
+	font-weight: normal;
+}
+
+.menu dt.active {
+	background-color: white;
+	color: #192745;
+	padding-right: 15px;
+	width: 185px
+}
+
+.menu a,.menu a:hover,.menu a:active,.menu a:visited {
+	color: #fff;
+	border: none;
+	font-weight: normal;
+}
+
+.menu dt {
+	font-size: 18px;
+	padding: 0.5em 0;
+}
+
+#bigmenu {
+	z-index: 1;
+	position: absolute;
+	margin-top: 350px;
+	margin-left: 175px;
+	width: 350px;
+	font-size: 16px
+}
+
+* html #bigmenu {
+	z-index: 1;
+	position: absolute;
+	margin-top: 300px;
+	margin-left: 100px;
+	width: 350px;
+	font-size: 16px
+}
+
+#bigmenu a {
+	text-decoration: none;
+}
+
+#bigmenu h3 {
+	text-transform: uppercase;
+	color: #192745;
+	font-weight: bold;
+}
+
+#bigmenu p {
+	font-size: 0.8em;
+	color: #6c788d;
+}
+
+#bigmenu .authors {
+	padding-top: 2em;
+	padding-right: 2em;
+}
+
+#bigmenu .authors p {
+	font-size: 1em;
+	color: #192745;
+	text-align: right;
+	line-height: 1.5em;
+}
+
+table.book-details {
+	width: 60%;
+}
+
+table.book-details tr {
+	border-bottom: 1px solid #eee;
+}
+
+table.book-details th {
+	font-weight: bold;
+}
+
+div.example form table td {
+	padding: 0 1em 0.25em 0;
+}
+
+div.example table {
+	width: 100%;
+}
+
+div.example form table {
+	width: 100%;
+}
+
+div.example table thead th {
+	padding: 0.5em 0 0 0;
+	font-weight: bold;
+	border-bottom: 1px solid #aaa;
+}
+
+div.example table td {
+	padding-bottom: 0.5em;
+}
+
+div.section {
+	padding-bottom: 1em;
+}
+
+code {
+	font: 10px "Andale Mono", "Courier", "fixed";
+}

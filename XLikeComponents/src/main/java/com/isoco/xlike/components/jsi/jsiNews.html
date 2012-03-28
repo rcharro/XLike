@@ -1,0 +1,76 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<link href="style/style2.css" rel="stylesheet" />
+<link rel="style/xlike-icon.ico" />
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<title>JSI News - Web Page - XLike</title>
+</head>
+<body>
+	<div id="container">
+		<div id="header">
+			<div id="logo">
+				<div id="h1">
+					<a href="/XLikeComponents/index">Sandbox - XLike </a>
+				</div>
+				<div id="h2" class="description">Cross-lingual Knowledge
+					Extraction</div>
+			</div>
+			<br></br>
+		</div>
+		<div id="main">
+			<div id="content">
+
+				<h1>
+					<img src="style/jsi_logo.png" width="150" height="45"
+						alt="jsi-logo" /> JSI News
+				</h1>
+				<br></br>
+				<form wicket:id="form_news">
+					<div style="border: 1px solid green; padding: 10px;">
+						<p>
+							Retrieve all articles with the words <input wicket:id="txt_q"
+								type="text" size="50"> in the title or the body.<br></br>
+
+							Retrieve all articles with the words <input wicket:id="txt_qt"
+								type="text" size="50"> in the body.<br></br> Retrieve
+							all articles with the words <input wicket:id="txt_qb" type="text"
+								size="50"> in the title. <br></br> Retrieve all <input
+								wicket:id="txt_lang" type="text" size="50">(language)
+							articles<br></br> Retrieve all articles published on <input
+								wicket:id="txt_date" type="text" size="50"> (YYYY-MM-DD)
+							<br></br> Offset = <input wicket:id="txt_offset" type="text"
+								size="50"> - used to retrieve more than first 100
+							articles; for example, offset 3 returns articles from 301 to 400
+						</p>
+						<input wicket:id="button_query" type="submit" value="Query News" />
+						<br></br>
+					</div>
+					<br></br> <input wicket:id="button_txt" type="submit"
+						value="Check TXT" />
+				</form>
+				<br></br>
+				<div style="border: 1px solid orange; padding: 10px;">
+					<span wicket:id="message"></span>
+				</div>
+			</div>
+			<div id="sidebar1">
+				<h1>Components</h1>
+				<br></br>
+				<wicket:link>
+					<ul>
+						<li><h3>
+								<img src="style/jsi_logo.png" width="100" height="30"
+									alt="jsi-logo2" /><a href="/XLikeComponents/news"> JSI
+									News</a>
+							</h3></li>
+					</ul>
+				</wicket:link>
+				<br></br>
+
+			</div>
+
+		</div>
+	</div>
+</body>
+</html>
